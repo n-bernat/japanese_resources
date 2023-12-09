@@ -1,0 +1,3 @@
+[submodule "submodules/JaponskiSlownik"]
+	path = submodules/JaponskiSlownik
+	url = https://github.com/dedyk/JaponskiSlownik
