@@ -2,13 +2,15 @@
 
 Japanese resources organized in a developer-friendly way.
 
+> Warning: This project is still in progress and some data may be incomplete.
+
 ## Repository structure
 
-- `/bin` - Binaries that generate output in `/output`
-- `/data` - Resources that are a part of input data, but are not available as a repository that can be added as a submodule
-- `/output` - Generated output files with resources
-- `/src` - Source code for binary files
-- `/submodules` - Git datasets that are used to generate files in `/output`
+- `/bin` - Binaries that generate output in `/output`.
+- `/data` - Resources that are a part of input data, but are not available as a repository that can be added as a submodule.
+- `/output` - Generated output files with resources.
+- `/src` - Source code for binary files.
+- `/submodules` - Git datasets that are used to generate files in `/output`.
 
 ## Data structure
 
@@ -19,15 +21,18 @@ Japanese resources organized in a developer-friendly way.
 
 Each file is a SQLite database with the following structure:
 
-| Column name     | Type      | Comments                                                                                                                                                                         |
-| --------------- | --------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `character`     | `TEXT`    | Single kanji character                                                                                                                                                           |
-| `kunyomi`       | `TEXT`    | Japanese readings from the jōyō kanji list                                                                                                                                       |
-| `onyomi`        | `TEXT`    | Sino-Japanese readings from the jōyō kanji list                                                                                                                                  |
-| `other_kunyomi` | `TEXT`    | Japanese readings from the jōyō kanji list                                                                                                                                       |
-| `other_onyomi`  | `TEXT`    | Sino-Japanese readings from the jōyō kanji list                                                                                                                                  |
-| `jlpt`          | `INTEGER` | Value between 0 and 5. Zero indicates that this character is not a part of the Japanese-Language Proficiency Test, other values indicate the level (e.g. number `3` is JLPT N3). |
-| `translations`  | `TEXT`    | Meanings of this character                                                                                                                                                       |
+| Column name       | Type      | Comments                                                                                                                                                                         |
+| ----------------- | --------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `character`       | `TEXT`    | Single kanji character ([Primary key](https://en.wikipedia.org/wiki/Primary_key)).                                                                                               |
+| `kunyomi`         | `TEXT`    | Japanese readings from the jōyō kanji list. Written in hiragana.                                                                                                                 |
+| `onyomi`          | `TEXT`    | Sino-Japanese readings from the jōyō kanji list. Written in katakana.                                                                                                            |
+| `other_kunyomi`   | `TEXT`    | Japanese readings that are not on the jōyō kanji list. Written in hiragana.                                                                                                      |
+| `other_onyomi`    | `TEXT`    | Sino-Japanese readings that are not on the jōyō kanji list. Written in katakana.                                                                                                 |
+| `nanori`          | `TEXT`    | Readings found only in names. Written in hiragana.                                                                                                                               |
+| `translations`    | `TEXT`    | Translations of this character in a particular language (e.g. in Polish for `kanji_pl.db`).                                                                                      |
+| `translations_en` | `TEXT`    | Fallback translations in English. For easier parsing in case of English it's present, but empty.                                                                                 |
+| `jlpt`            | `INTEGER` | Value between 0 and 5. Zero indicates that this character is not a part of the Japanese-Language Proficiency Test, other values indicate the level (e.g. number `3` is JLPT N3). |
+| `strokes`         | `INTEGER` | The number of strokes.                                                                                                                                                           |
 
 Notes:
 
@@ -38,5 +43,8 @@ Notes:
 ### Sources & Licenses
 
 - Kanji List
-  - (Polish) [JaponskiSlownik by dedyk](https://github.com/dedyk/JaponskiSlownik) under [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/deed.en)
-  - Tamaoka, K., Makioka, S., Sanders, S. & Verdonschot, R.G. (2017). [www.kanjidatabase.com](https://www.kanjidatabase.com): A new interactive online database for psychological and linguistic research on Japanese kanji and their compound words. Psychological Research. 81, 696-708.
+  - [常用漢字表](https://www.bunka.go.jp/kokugo_nihongo/sisaku/joho/joho/kijun/naikaku/kanji/joyokanjisakuin/index.html)
+    - from Agency for Cultural Affairs (bunka.go.jp)
+    - Exported to `data/jouyou_kanji.csv` in [Numbers](<https://en.wikipedia.org/wiki/Numbers_(spreadsheet)>) on December 9, 2023
+  - [KANJIDIC2](http://www.edrdg.org/wiki/index.php/KANJIDIC_Project) by [Electronic Dictionary Research and Development Group](http://www.edrdg.org) under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0)
+  - (Polish-only) [JaponskiSlownik](https://github.com/dedyk/JaponskiSlownik) by [dedyk](https://github.com/dedyk) under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0)
