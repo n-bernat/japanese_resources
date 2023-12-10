@@ -1,3 +1,6 @@
 [submodule "submodules/JaponskiSlownik"]
 	path = submodules/JaponskiSlownik
 	url = https://github.com/dedyk/JaponskiSlownik
+[submodule "submodules/kanjivg"]
+	path = submodules/kanjivg
+	url = https://github.com/KanjiVG/kanjivg
