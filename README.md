@@ -16,8 +16,8 @@ Japanese resources organized in a developer-friendly way.
 
 ### Kanji List
 
-- `output/kanji/kanji_en.db`
-- `output/kanji/kanji_pl.db`
+- `output/kanji_list/kanji_en.db`
+- `output/kanji_list/kanji_pl.db`
 
 Each file is a SQLite database with the following structure:
 
