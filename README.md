@@ -4,10 +4,9 @@ Japanese resources organized in a developer-friendly way.
 
 ## Repository structure
 
-- `/bin` - Binaries that generate output in `/output`.
 - `/data` - Resources that are a part of input data, but are not available as a repository that can be added as a submodule.
 - `/output` - Generated output files with resources.
-- `/src` - Source code for binary files.
+- `/src` - Source code for output generators.
 - `/submodules` - Git datasets that are used to generate files in `/output`.
 
 ## Data structure
