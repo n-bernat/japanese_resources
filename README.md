@@ -38,11 +38,19 @@ Notes:
 - All readings and translations are separated using the [Information Separator One (US)](https://www.compart.com/en/unicode/U+001F) character (`U+001F`). It's a delimited commonly used for [dividing plain-text data items](https://en.wikipedia.org/wiki/C0_and_C1_control_codes#Field_separators).
 - `kunyomi` and `onyomi` columns contain only readings that are officially recognised in the [jōyō kanji](https://en.wikipedia.org/wiki/Jōyō_kanji) list. Characters that are not on the jōyō kanji list have only `other_kunyomi` and `other_onyomi` data provided.
 
+### KanjiVG
+
+Minified KanjiVG resources splitted into directories based on their style.
+
+> To be added.
+
 ### Sources & Licenses
 
 - Kanji List
   - [常用漢字表](https://www.bunka.go.jp/kokugo_nihongo/sisaku/joho/joho/kijun/naikaku/kanji/joyokanjisakuin/index.html)
     - from Agency for Cultural Affairs (bunka.go.jp)
     - Exported to `data/jouyou_kanji.csv` in [Numbers](<https://en.wikipedia.org/wiki/Numbers_(spreadsheet)>) on December 9, 2023
-  - [KANJIDIC2](http://www.edrdg.org/wiki/index.php/KANJIDIC_Project) by [Electronic Dictionary Research and Development Group](http://www.edrdg.org) under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0)
-  - (Polish-only) [JaponskiSlownik](https://github.com/dedyk/JaponskiSlownik) by [dedyk](https://github.com/dedyk) under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0)
+  - [KANJIDIC2](http://www.edrdg.org/wiki/index.php/KANJIDIC_Project) by [Electronic Dictionary Research and Development Group](http://www.edrdg.org) under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) license.
+  - (Polish-only) [JaponskiSlownik](https://github.com/dedyk/JaponskiSlownik) by [dedyk](https://github.com/dedyk) under the [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0) license.
+- KanjiVG
+  - [KanjiVG](https://kanjivg.tagaini.net) by Ulrich Apel under the [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/) license.
