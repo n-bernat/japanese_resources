@@ -39,9 +39,9 @@ Notes:
 
 ### KanjiVG
 
-Minified KanjiVG resources splitted into directories based on their style.
+Minified KanjiVG resources.
 
-> To be added.
+- All files are minified and may have some missing data to avoid duplication when used together with the Kanji database from the `kanji_list` directory.
 
 ### Sources & Licenses
 
