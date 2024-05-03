@@ -14,7 +14,6 @@ Japanese resources organized in a developer-friendly way.
 ### Kanji List
 
 - `output/kanji_list/kanji_en.db`
-- `output/kanji_list/kanji_pl.db`
 
 Each file is a SQLite database with the following structure:
 
@@ -51,6 +50,6 @@ Minified KanjiVG resources splitted into directories based on their style.
     - from Agency for Cultural Affairs (bunka.go.jp)
     - Exported to `data/jouyou_kanji.csv` in [Numbers](<https://en.wikipedia.org/wiki/Numbers_(spreadsheet)>) on December 9, 2023
   - [KANJIDIC2](http://www.edrdg.org/wiki/index.php/KANJIDIC_Project) by [Electronic Dictionary Research and Development Group](http://www.edrdg.org) under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) license.
-  - (Polish-only) [JaponskiSlownik](https://github.com/dedyk/JaponskiSlownik) by [dedyk](https://github.com/dedyk) under the [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0) license.
+  - [JLPT Levels](http://www.tanos.co.uk/jlpt/skills/kanji) by [tanos.co.uk](http://www.tanos.co.uk) under the [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/) license.
 - KanjiVG
   - [KanjiVG](https://kanjivg.tagaini.net) by Ulrich Apel under the [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/) license.
