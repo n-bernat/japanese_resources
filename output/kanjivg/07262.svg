@@ -1,1 +1,18 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="109" height="109" viewBox="0 0 109 109"><g id="kvg:StrokePaths_07262"><g id="kvg:07262" kvg:element="牢"><g id="kvg:07262-g1" kvg:element="宀" kvg:position="top" kvg:radical="nelson"><path id="kvg:07262-s1" kvg:type="㇑a" d="M51.82 10.85c1.07.35 2.6 2.06 2.57 3.06-.08 3.17-.08 8.56-.08 11.44"/><g id="kvg:07262-g2" kvg:element="冖"><path id="kvg:07262-s2" kvg:type="㇔" d="M20.91 25.63c0 3.48-3.03 13.05-4.41 15.37"/><path id="kvg:07262-s3" kvg:type="㇖b" d="M20.74 28.24c9.51-.99 56.24-5.03 63.95-5.4 12.05-.59 2.55 7.16-.45 9.28"/></g></g><g id="kvg:07262-g3" kvg:element="牛" kvg:position="bottom" kvg:radical="tradit"><path id="kvg:07262-s4" kvg:type="㇒" d="M37.83 39.28c.04.55.08 1.42-.08 2.22-1 5-6.5 13.5-14.77 21.23"/><path id="kvg:07262-s5" kvg:type="㇐" d="M36.3 51.6c.91.33 2.58.41 3.5.33 11.19-.91 24.6-3.88 34.64-5.03 1.51-.17 2.43.16 3.19.32"/><path id="kvg:07262-s6" kvg:type="㇐" d="M16.52 71.11c1.47.47 4.18.54 5.65.47 15.34-.79 45.25-4.58 67.64-4.77 2.46-.02 3.93.22 5.16.46"/><path id="kvg:07262-s7" kvg:type="㇑" d="M53.36 30.88c.74.39 2.29 2.91 2.44 3.68.15.78-.09 60.33-.24 65.18"/></g></g></g></svg>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd" [
+<!ATTLIST g
+xmlns:kvg CDATA #FIXED "http://kanjivg.tagaini.net"
+kvg:element CDATA #IMPLIED
+kvg:variant CDATA #IMPLIED
+kvg:partial CDATA #IMPLIED
+kvg:original CDATA #IMPLIED
+kvg:part CDATA #IMPLIED
+kvg:number CDATA #IMPLIED
+kvg:tradForm CDATA #IMPLIED
+kvg:radicalForm CDATA #IMPLIED
+kvg:position CDATA #IMPLIED
+kvg:radical CDATA #IMPLIED
+kvg:phon CDATA #IMPLIED >
+<!ATTLIST path
+xmlns:kvg CDATA #FIXED "http://kanjivg.tagaini.net"
+kvg:type CDATA #IMPLIED >
+]><svg xmlns="http://www.w3.org/2000/svg" width="109" height="109" viewBox="0 0 109 109"><g id="kvg:StrokePaths_07262" style="fill:none;stroke:#000000;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;"><g id="kvg:07262" kvg:element="牢"><g id="kvg:07262-g1" kvg:element="宀" kvg:position="top" kvg:radical="nelson"><path id="kvg:07262-s1" kvg:type="㇑a" d="M51.82 10.85c1.07.35 2.6 2.06 2.57 3.06-.08 3.17-.08 8.56-.08 11.44"/><g id="kvg:07262-g2" kvg:element="冖"><path id="kvg:07262-s2" kvg:type="㇔" d="M20.91 25.63c0 3.48-3.03 13.05-4.41 15.37"/><path id="kvg:07262-s3" kvg:type="㇖b" d="M20.74 28.24c9.51-.99 56.24-5.03 63.95-5.4 12.05-.59 2.55 7.16-.45 9.28"/></g></g><g id="kvg:07262-g3" kvg:element="牛" kvg:position="bottom" kvg:radical="tradit"><path id="kvg:07262-s4" kvg:type="㇒" d="M37.83 39.28c.04.55.08 1.42-.08 2.22-1 5-6.5 13.5-14.77 21.23"/><path id="kvg:07262-s5" kvg:type="㇐" d="M36.3 51.6c.91.33 2.58.41 3.5.33 11.19-.91 24.6-3.88 34.64-5.03 1.51-.17 2.43.16 3.19.32"/><path id="kvg:07262-s6" kvg:type="㇐" d="M16.52 71.11c1.47.47 4.18.54 5.65.47 15.34-.79 45.25-4.58 67.64-4.77 2.46-.02 3.93.22 5.16.46"/><path id="kvg:07262-s7" kvg:type="㇑" d="M53.36 30.88c.74.39 2.29 2.91 2.44 3.68.15.78-.09 60.33-.24 65.18"/></g></g></g><g id="kvg:StrokeNumbers_07262" style="font-size:8;fill:#808080"><text transform="matrix(1 0 0 1 43.50 11.50)">1</text><text transform="matrix(1 0 0 1 14.50 25.50)">2</text><text transform="matrix(1 0 0 1 24.50 24.50)">3</text><text transform="matrix(1 0 0 1 29.50 39.50)">4</text><text transform="matrix(1 0 0 1 41.50 48.50)">5</text><text transform="matrix(1 0 0 1 9.50 71.50)">6</text><text transform="matrix(1 0 0 1 44.50 34.50)">7</text></g></svg>
